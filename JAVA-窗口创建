@@ -1,0 +1,72 @@
+package com.example.qqindex;
+import javax.swing.*;
+
+import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
+
+public class QQText {
+    public static void main(String[] args) {
+        //创建窗口 窗口对象
+        JFrame jFrame = new JFrame();
+        //窗口设置大小
+        jFrame.setBounds(300,300,450,400);
+        //当我关闭窗口师，程序自动结束
+        jFrame.getDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //显示出来
+        jFrame.setVisible(true);
+        //创建对象 JLabel    放图片      图片对象       写图片链接
+        JLabel jl = new JLabel(new ImageIcon(QQText.class.getResource("/stati/qq/QQ2.png")));
+        //swing当中有布局的概念
+        jFrame.add(jl,"North");
+        //面板创建出来
+        JPanel jPanel = new JPanel();
+        //设置一下jPanel布局方式
+        jPanel.setLayout(null);
+        //图片    放到面板上
+        JLabel jLabel2 = new JLabel(new ImageIcon(QQText.class.getResource("/stati/qq/QQ3.png")));
+        //参数 写4个 x轴 y轴 width height
+        jLabel2.setBounds(35,20,80,80);
+        //吧图片放到jpanel
+        jPanel.add(jLabel2);
+        jFrame.add(jPanel);
+        //把jPanel容器放到jFrame里面
+        jFrame.add(jPanel);
+        //先创建 再存放
+        JTextField jTextField = new JTextField();
+        jTextField.setBounds(140,10,180,30);
+        jPanel.add(jTextField);
+        //密码框就有了
+        JPasswordField jPasswordField = new JPasswordField();
+        //密码设置位置
+        jPasswordField.setBounds(140,35,180,30);
+        //把密码框放进jPanel里面
+        jPanel.add(jPasswordField);
+        //复选框
+        JCheckBox jCheckBox = new JCheckBox();
+        //设置坐标
+        jCheckBox.setBounds(140,75,80,30);
+        //把复选框放到容器里面
+        jPanel.add(jCheckBox);
+        //复选框
+        JCheckBox jCheckBoxs = new JCheckBox("记住密码");
+        //设置坐标
+        jCheckBoxs.setBounds(220,75,180,15);
+        //把复选框放到容器里面
+        jPanel.add(jCheckBoxs);
+        //注册账号
+        JLabel jLabel = new JLabel("注册账号");
+        jLabel.setBounds(340,15,60,15);
+        jPanel.add(jLabel);
+        //找回密码
+        JLabel jLabels = new JLabel();
+        jLabel.setBounds(340,50,60,15);
+        jPanel.add(jLabels);
+        //登录按钮
+        JLabel jLabel3 = new JLabel(new ImageIcon(QQText.class.getResource("/stati/qq/")));
+        jPanel.add(jLabel3);
+        //图片  JB
+        /*JButton jButton = new JButton("登录");
+        jButton.setBounds(140,15,60,15);
+        jPanel.add(jButton);*/
+        jFrame.setVisible(true);
+    }
+}
