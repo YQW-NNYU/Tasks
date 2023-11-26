@@ -23,29 +23,42 @@
 ### HTML 学习及常用标签:
 HTML（HyperText Markup Language）是用于构建网页结构的标记语言。Web相关领域的基础-HTML/`CSS`/JavaScriptWeb相关领域的基础-HTML/`CSS`/JavaScriptWeb相关领域的基础-HTML/`CSS`/JavaScript
 1.&lt;div&gt;: 用于定义文档中的一个区域或节（division）。
+
 2.&lt;p&gt;: 表示段落。
+
 3.&lt;a&gt;: 创建链接。
+
 4.&lt;button&gt;: 创建按钮。
+
 ### 理解块级元素与内联元素:
 HTML元素可分为块级元素和内联元素。块级元素在页面上以块的形式展现，而内联元素则在行内显示。
 例如，&lt;div&gt;是块级元素，而&lt;span&gt;是内联元素。理解它们的特性对于页面布局和样式设置至关重要。
+
 ### HTML标签的样式:
 学习如何使用HTML标签的样式是重要的一步。这可能包括文本样式（如字体、颜色）和布局样式（如边距、填充）。
+
 ### CSS 学习及基础概念:
 CSS（Cascading Style Sheets）用于定义网页的样式。重点包括：
-I.CSS的作用: 控制网页的布局和外观。II.理解CSS选择器: 通用选择器、元素选择器、类选择器、ID选择器等。
+I.CSS的作用: 控制网页的布局和外观。
+II.理解CSS选择器: 通用选择器、元素选择器、类选择器、ID选择器等。
+
 ### 利用CSS设置基础样式:
 学习如何使用CSS设置元素的基础样式，包括大小、颜色、字体等。
+
 ### 理解CSS盒模型:
 盒模型描述了每个HTML元素在页面上所占空间的方式。包括内容、内边距、边框和外边距。
 1.通用选择器 (*):
-I.通用选择器匹配页面中的所有元素。II.例如，如果你希望设置页面上所有元素的边框为1像素，可以使用通用选择器：* { border: 1px solid black; }。
+I.通用选择器匹配页面中的所有元素。
+II.例如，如果你希望设置页面上所有元素的边框为1像素，可以使用通用选择器：* { border: 1px solid black; }。
 2.元素选择器:
-I.元素选择器选择特定的HTML元素。II.例如，如果你想选择所有段落元素 &lt;p&gt; 并将它们的颜色设置为红色，可以使用元素选择器：p { color: red; }。
+I.元素选择器选择特定的HTML元素。
+II.例如，如果你想选择所有段落元素 &lt;p&gt; 并将它们的颜色设置为红色，可以使用元素选择器：p { color: red; }。
 3.类选择器 (.class):
-I.类选择器通过指定类名选择元素。类名前面加上点 (.)。II.例如，如果你有一个类为 "highlight" 的元素，你可以使用类选择器来设置它的样式：.highlight { background-color: yellow; }。
+I.类选择器通过指定类名选择元素。类名前面加上点 (.)。
+II.例如，如果你有一个类为 "highlight" 的元素，你可以使用类选择器来设置它的样式：.highlight { background-color: yellow; }。
 4.ID选择器 (#id):
-I.ID选择器通过指定元素的ID来选择元素。ID名前面加上井号 (#)。II.例如，如果你有一个ID为 "header" 的元素，你可以使用ID选择器来设置它的样式：#header { font-size: 24px; }。
+I.ID选择器通过指定元素的ID来选择元素。ID名前面加上井号 (#)。
+II.例如，如果你有一个ID为 "header" 的元素，你可以使用ID选择器来设置它的样式：#header { font-size: 24px; }。
 在CSS中，选择器的组合使用可以非常灵活地选择文档中的元素并应用样式。例如，你可以结合使用元素选择器和类选择器来选择特定类型的元素，或者使用通用选择器来设置全局样式。以下是一个简单的例子，演示如何使用这些选择器：/* 通用选择器，设置所有元素的边框 */
 * {border: 1px solid black;}
 /* 元素选择器，设置段落元素的颜色 */p { color: red;}
@@ -71,7 +84,10 @@ I.表示声明了变量但没有给它赋值。II.例如：let myUndefined;
 6.对象（Object）:
 I.表示复杂的数据结构，可以包含多个键值对。II.用花括号 {} 定义。III.例如： javascript let myObject = { key1: 'value1', key2: 'value2', // ... };
 7.数组（Array）:
-I.表示有序的集合。II.用方括号 [] 定义。III.例如： javascript let myArray = [1, 2, 3, 4, 5];
+I.表示有序的集合。
+II.用方括号 [] 定义。
+III.例如： javascript let myArray = [1, 2, 3, 4, 5];
+
 ### HTML/CSS/JavaScript 三者之间的关系:
 HTML用于结构，CSS用于样式，JavaScript用于交互。它们共同工作，构建出完整的网页。
 
