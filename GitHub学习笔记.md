@@ -19,9 +19,13 @@
 ## Web相关领域的基础-HTML/`CSS`/JavaScript
 ### HTML 学习及常用标签:
 HTML（HyperText Markup Language）是用于构建网页结构的标记语言。Web相关领域的基础-HTML/`CSS`/JavaScriptWeb相关领域的基础-HTML/`CSS`/JavaScriptWeb相关领域的基础-HTML/`CSS`/JavaScript
-1.&lt;div&gt;: 用于定义文档中的一个区域或节（division）。2.&lt;p&gt;: 表示段落。3.&lt;a&gt;: 创建链接。4.&lt;button&gt;: 创建按钮。
+1.&lt;div&gt;: 用于定义文档中的一个区域或节（division）。
+2.&lt;p&gt;: 表示段落。
+3.&lt;a&gt;: 创建链接。
+4.&lt;button&gt;: 创建按钮。
 ### 理解块级元素与内联元素:
-HTML元素可分为块级元素和内联元素。块级元素在页面上以块的形式展现，而内联元素则在行内显示。例如，&lt;div&gt;是块级元素，而&lt;span&gt;是内联元素。理解它们的特性对于页面布局和样式设置至关重要。
+HTML元素可分为块级元素和内联元素。块级元素在页面上以块的形式展现，而内联元素则在行内显示。
+例如，&lt;div&gt;是块级元素，而&lt;span&gt;是内联元素。理解它们的特性对于页面布局和样式设置至关重要。
 ### HTML标签的样式:
 学习如何使用HTML标签的样式是重要的一步。这可能包括文本样式（如字体、颜色）和布局样式（如边距、填充）。
 ### CSS 学习及基础概念:
