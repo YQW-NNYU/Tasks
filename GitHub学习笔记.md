@@ -65,7 +65,11 @@ II.例如，如果你有一个ID为 "header" 的元素，你可以使用ID选择
 /* 类选择器，设置具有 "highlight" 类的元素的背景颜色 */.highlight { background-color: yellow;}
 /* ID选择器，设置具有 "header" ID的元素的字体大小 */#header { font-size: 24px;}
 ### CSS的5种position定位:
-Istatic: 默认定位。II.relative: 相对于元素自身的位置定位。III.absolute: 相对于最近的已定位的父元素进行定位。IV.fixed: 相对于浏览器窗口进行定位。V.sticky: 根据用户的滚动位置来定位。
+I.static: 默认定位。
+II.relative: 相对于元素自身的位置定位。
+III.absolute: 相对于最近的已定位的父元素进行定位。
+IV.fixed: 相对于浏览器窗口进行定位。
+V.sticky: 根据用户的滚动位置来定位。
 ### 了解CSS常用布局方式:
 I.Flexbox: 弹性布局。II.Grid: 网格布局。
 ### CSS伪类：
