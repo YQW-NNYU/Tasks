@@ -135,7 +135,7 @@ I.表示有序的集合。II.用方括号 [] 定义。III.例如： javascript l
 
 HTML用于结构，CSS用于样式，JavaScript用于交互。它们共同工作，构建出完整的网页。
 
-### 静态页面 index.html
+### 静态页面 YQW-NNYU.github.io
 [Upload<IDOCTYPE html>
 <html>
 <head>
