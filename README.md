@@ -81,6 +81,52 @@ markdown
 6.合并拉取请求
 ![940822fc-2c9f-4e01-9d2b-2baaf9f4dcd1](file:///C:/Users/32449/Pictures/Typedown/940822fc-2c9f-4e01-9d2b-2baaf9f4dcd1.png)
 
+
+#### 初始化Git仓库
+要在项目中使用Git，首先需要将其初始化为一个Git仓库。
+git init
+
+#### 克隆仓库
+如果你想在本地创建一个现有的远程仓库的副本，可以使用克隆命令。
+git clone &lt;远程仓库URL&gt;
+
+#### 添加文件到暂存区
+要将文件添加到Git仓库，需要将其先添加到暂存区。
+git add &lt;文件名&gt;
+
+#### 提交更改
+将暂存区的文件提交到本地仓库。
+git commit -m "提交说明"
+
+#### 查看状态
+查看工作区、暂存区和本地仓库的状态。
+git status
+
+#### 查看提交历史
+查看提交历史记录。
+git log
+
+#### 创建分支
+创建新的分支来开发新功能或修复bug。
+git branch &lt;分支名&gt;
+
+#### 切换分支
+切换到不同的分支。
+git checkout &lt;分支名&gt;
+
+#### 合并分支
+将一个分支的更改合并到另一个分支。
+git merge &lt;要合并的分支名&gt;
+
+#### 拉取远程更改
+从远程仓库获取最新更改。
+git pull origin &lt;分支名&gt;
+
+#### 推送更改到远程仓库
+将本地仓库的更改推送到远程仓库。
+git push origin &lt;分支名&gt;
+
+
 ## 第三阶段
 
 ### Web相关领域的基础-HTML//JavaScript//CSS
