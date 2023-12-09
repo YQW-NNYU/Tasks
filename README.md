@@ -205,7 +205,9 @@ II.Grid: 网格布局。
 
 ### CSS伪类：
 
-### 伪类用于向某些选择器添加特殊效果。例如，:hover表示鼠标悬停时的状态。 JavaScript 基本语法及数据类型:
+### 伪类用于向某些选择器添加特殊效果。例如，:hover表示鼠标悬停时的状态。
+
+ JavaScript 基本语法及数据类型:
 
 JavaScript是一种用于网页交互的脚本语言。学习基本语法和数据类型，包括字符串、数字、布尔、Null、Undefined、对象和数组。
 
@@ -225,7 +227,9 @@ I.表示逻辑值，只有两个可能的值：true 或 false。II.常用于条�
 
 4.Null:
 
-I.表示空值或没有值。II.例如：let myNull = null;
+I.表示空值或没有值。
+
+II.例如：let myNull = null;
 
 5.Undefined:
 
